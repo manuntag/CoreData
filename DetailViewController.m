@@ -69,10 +69,8 @@
     NSManagedObjectContext * context = [self managedObjectContext];
     
     //create a new managed object
-    
-    Item * newItem = [NSEntityDescription insertNewObjectForEntityForName:NSStringFromClass([Item class]) inManagedObjectContext:context];
-    newItem.item = self.itemTextField.text;
-    newItem.information = self.informationTextField.text;
+
+    [Item itemWithItemName:self.itemTextField.text withInformation:self.itemTextField.text];
     
     NSError * error = nil;
     

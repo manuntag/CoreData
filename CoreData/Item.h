@@ -15,7 +15,7 @@
 @property (nonatomic, retain) NSString * information;
 @property (nonatomic, retain) NSString * item;
 
--(instancetype)itemWithItemName:(NSString*)itemName withInformation:(NSString *)information;
++(instancetype)itemWithItemName:(NSString*)itemName withInformation:(NSString *)information;
 
 
 @end

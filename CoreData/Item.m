@@ -15,33 +15,27 @@
 @dynamic item;
 
 
-//+(NSManagedObjectContext*)managedObjectContext {
-//    
-//    
-//    NSManagedObjectContext * context = nil;
-//    id delegate = [[UIApplication sharedApplication]delegate];
-//    
-//    if ([delegate performSelector:@selector(managedObjectContext)]) {
-//        
-//        context = [delegate managedObjectContext];
-//        
-//    }
-//    
-//    return context;
-//}
++(NSManagedObjectContext*)managedObjectContext {
+    
+    
+    NSManagedObjectContext * context = nil;
+    id delegate = [[UIApplication sharedApplication]delegate];
+    
+    if ([delegate performSelector:@selector(managedObjectContext)]) {
+        
+        context = [delegate managedObjectContext];
+        
+    }
+    
+    return context;
+}
 
 
-
-
-//+(instancetype)itemWithItemName:(NSString*)itemName withInformation:(NSString *)information; {
-//    
-//    [self managedObjectContext];
-//    
-//    
-//    
-//    
-//
-//    
-//}
++(instancetype)itemWithItemName:(NSString*)itemName withInformation:(NSString *)information {
+    Item * newItem = [NSEntityDescription insertNewObjectForEntityForName:NSStringFromClass([Item class]) inManagedObjectContext:[self managedObjectContext]];
+    newItem.item = itemName;
+    newItem.information = information;
+    return newItem;
+}
 
 @end
