@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A9429881A81B2240013FA26 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9429871A81B2240013FA26 /* ItemDetailViewController.m */; };
 		8ABB100D1A816FE900074B49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB100C1A816FE900074B49 /* main.m */; };
 		8ABB10101A816FE900074B49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB100F1A816FE900074B49 /* AppDelegate.m */; };
 		8ABB10131A816FE900074B49 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB10111A816FE900074B49 /* CoreData.xcdatamodeld */; };
-		8ABB10161A816FE900074B49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB10151A816FE900074B49 /* ViewController.m */; };
 		8ABB10191A816FE900074B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ABB10171A816FE900074B49 /* Main.storyboard */; };
 		8ABB101B1A816FE900074B49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ABB101A1A816FE900074B49 /* Images.xcassets */; };
 		8ABB101E1A816FE900074B49 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ABB101C1A816FE900074B49 /* LaunchScreen.xib */; };
 		8ABB102A1A816FE900074B49 /* CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB10291A816FE900074B49 /* CoreDataTests.m */; };
+		8ABB10381A817BAE00074B49 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB10371A817BAE00074B49 /* MainTableViewController.m */; };
+		8ABB103B1A817BDC00074B49 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB103A1A817BDC00074B49 /* DetailViewController.m */; };
+		8AE036731A81C91B00680D57 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE036721A81C91B00680D57 /* Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +31,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A9429861A81B2240013FA26 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemDetailViewController.h; path = ../ItemDetailViewController.h; sourceTree = "<group>"; };
+		8A9429871A81B2240013FA26 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemDetailViewController.m; path = ../ItemDetailViewController.m; sourceTree = "<group>"; };
 		8ABB10071A816FE900074B49 /* CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ABB100B1A816FE900074B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ABB100C1A816FE900074B49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8ABB100E1A816FE900074B49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8ABB100F1A816FE900074B49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8ABB10121A816FE900074B49 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
-		8ABB10141A816FE900074B49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8ABB10151A816FE900074B49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8ABB10181A816FE900074B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8ABB101A1A816FE900074B49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8ABB101D1A816FE900074B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8ABB10231A816FE900074B49 /* CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ABB10281A816FE900074B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ABB10291A816FE900074B49 /* CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTests.m; sourceTree = "<group>"; };
+		8ABB10361A817BAE00074B49 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTableViewController.h; path = ../MainTableViewController.h; sourceTree = "<group>"; };
+		8ABB10371A817BAE00074B49 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTableViewController.m; path = ../MainTableViewController.m; sourceTree = "<group>"; };
+		8ABB10391A817BDC00074B49 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		8ABB103A1A817BDC00074B49 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		8AE036711A81C91B00680D57 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		8AE036721A81C91B00680D57 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +92,18 @@
 		8ABB10091A816FE900074B49 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				8ABB10171A816FE900074B49 /* Main.storyboard */,
 				8ABB100E1A816FE900074B49 /* AppDelegate.h */,
 				8ABB100F1A816FE900074B49 /* AppDelegate.m */,
-				8ABB10141A816FE900074B49 /* ViewController.h */,
-				8ABB10151A816FE900074B49 /* ViewController.m */,
-				8ABB10171A816FE900074B49 /* Main.storyboard */,
-				8ABB101A1A816FE900074B49 /* Images.xcassets */,
-				8ABB101C1A816FE900074B49 /* LaunchScreen.xib */,
+				8ABB10361A817BAE00074B49 /* MainTableViewController.h */,
+				8ABB10371A817BAE00074B49 /* MainTableViewController.m */,
+				8ABB10391A817BDC00074B49 /* DetailViewController.h */,
+				8ABB103A1A817BDC00074B49 /* DetailViewController.m */,
+				8A9429861A81B2240013FA26 /* ItemDetailViewController.h */,
+				8A9429871A81B2240013FA26 /* ItemDetailViewController.m */,
 				8ABB10111A816FE900074B49 /* CoreData.xcdatamodeld */,
+				8AE036711A81C91B00680D57 /* Item.h */,
+				8AE036721A81C91B00680D57 /* Item.m */,
 				8ABB100A1A816FE900074B49 /* Supporting Files */,
 			);
 			path = CoreData;
@@ -99,6 +112,8 @@
 		8ABB100A1A816FE900074B49 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8ABB101A1A816FE900074B49 /* Images.xcassets */,
+				8ABB101C1A816FE900074B49 /* LaunchScreen.xib */,
 				8ABB100B1A816FE900074B49 /* Info.plist */,
 				8ABB100C1A816FE900074B49 /* main.m */,
 			);
@@ -222,9 +237,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ABB103B1A817BDC00074B49 /* DetailViewController.m in Sources */,
+				8ABB10381A817BAE00074B49 /* MainTableViewController.m in Sources */,
 				8ABB10101A816FE900074B49 /* AppDelegate.m in Sources */,
 				8ABB100D1A816FE900074B49 /* main.m in Sources */,
-				8ABB10161A816FE900074B49 /* ViewController.m in Sources */,
+				8A9429881A81B2240013FA26 /* ItemDetailViewController.m in Sources */,
+				8AE036731A81C91B00680D57 /* Item.m in Sources */,
 				8ABB10131A816FE900074B49 /* CoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +434,7 @@
 				8ABB102F1A816FE900074B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8ABB10301A816FE900074B49 /* Build configuration list for PBXNativeTarget "CoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +443,7 @@
 				8ABB10321A816FE900074B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

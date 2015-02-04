@@ -9,14 +9,19 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
-
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (strong, nonatomic) NSManagedObjectModel *managedObjectModel;
+@property (strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    
+    
     return YES;
 }
 
@@ -46,9 +51,9 @@
 
 #pragma mark - Core Data stack
 
-@synthesize managedObjectContext = _managedObjectContext;
-@synthesize managedObjectModel = _managedObjectModel;
-@synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
+//@synthesize managedObjectContext = _managedObjectContext;
+//@synthesize managedObjectModel = _managedObjectModel;
+//@synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (NSURL *)applicationDocumentsDirectory {
     // The directory the application uses to store the Core Data store file. This code uses a directory named "com.davidmanuntag.CoreData" in the application's documents directory.

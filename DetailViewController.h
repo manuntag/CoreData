@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  CoreData
 //
 //  Created by David Manuntag on 2015-02-03.
@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface DetailViewController : UIViewController
+
+
+
+
 
 
 @end
-
